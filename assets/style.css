@@ -13,7 +13,7 @@ body {
 .cartao {
     margin: 1rem 1rem; /* Margem externa de 1rem em todos os lados */
     background-color: aqua; /* Cor de fundo azul água para os cartões */
-    height: 20rem; /* Altura fixa de 20rem para os cartões */
+    height: 10rem; /* Altura fixa de 20rem para os cartões */
     flex-grow: 1; /* Permite que os cartões cresçam para ocupar espaço disponível */
     flex-basis: calc(33% - 6rem); /* Largura base de ~33% com ajuste para margens */
 }
