@@ -1,58 +1,60 @@
+/* Estilos gerais do corpo da página */
 body {
-    background-color: bisque;
-    font-family: Bai Jamjuree;
+    background-color: bisque; /* Cor de fundo bege para o body */
+    font-family: Bai Jamjuree; /* Fonte principal do documento */
 }
 
+/* Container principal que envolve todos os cartões */
 #container {
-    display: flex; /* Elementos dispostos em linha */
+    display: flex; /* Ativa o layout Flexbox para organizar os cartões em linha */
 }
 
+/* Estilos para cada cartão individual */
 .cartao {
-    margin: 1rem 1rem;
-    background-color: aqua;
-    height: 20rem;
-    flex-grow: 1;
-    flex-basis: calc(33% - 6rem);
+    margin: 1rem 1rem; /* Margem externa de 1rem em todos os lados */
+    background-color: aqua; /* Cor de fundo azul água para os cartões */
+    height: 20rem; /* Altura fixa de 20rem para os cartões */
+    flex-grow: 1; /* Permite que os cartões cresçam para ocupar espaço disponível */
+    flex-basis: calc(33% - 6rem); /* Largura base de ~33% com ajuste para margens */
 }
 
+/* Estilos para o conteúdo interno dos cartões */
 .cartao__conteudo {
-    text-align: center;
-    /* background-color: aquamarine; */
-    height: 100%;
+    text-align: center; /* Alinhamento centralizado do texto */
+    /* background-color: aquamarine; */ /* Cor de fundo comentada (opcional) */
+    height: 100%; /* Altura 100% para preencher o cartão */
 }
 
+/* Estilos específicos para os títulos h3 dentro dos cartões */
 .cartao__conteudo h3 {
-    background-color: tomato;
-    text-align: left;
-    padding: 0.5rem;
-    position: absolute;
-    margin: 0.6rem;
-    border-radius: 0.6rem;
-    font-size: 1vw;
+    background-color: tomato; /* Cor de fundo vermelho-tomate para os títulos */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    padding: 0.5rem; /* Espaçamento interno de 0.5rem */
+    position: absolute; /* Posicionamento absoluto dentro do cartão */
+    margin: 0.6rem; /* Margem externa de 0.6rem */
+    border-radius: 0.6rem; /* Bordas arredondadas de 0.6rem */
+    font-size: 1vw; /* Tamanho de fonte responsivo (1% da largura da viewport) */
 }
 
+/* Estilos para os parágrafos dentro dos cartões */
 .cartao__conteudo p {
-    margin-top: 1rem;
-    padding: 2rem;
+    margin-top: 1rem; /* Margem superior de 1rem */
+    padding: 2rem; /* Espaçamento interno de 2rem */
 }
 
-
-
-
-
-
-
+/* Estilos para o rodapé da página */
 footer {
-    background-color: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
+    background-color: black; /* Cor de fundo preta */
+    color: white; /* Cor do texto branca */
+    position: fixed; /* Posicionamento fixo na parte inferior */
+    bottom: 0; /* Alinhado na base da viewport */
+    width: 100%; /* Largura total da viewport */
+    height: 2rem; /* Altura fixa de 2rem */
 }
 
+/* Estilos para o parágrafo dentro do rodapé */
 footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
+    text-align: center; /* Texto centralizado */
+    font-size: 0.6rem; /* Tamanho de fonte pequeno */
+    margin-top: 0.5rem; /* Margem superior de 0.5rem */
 }
